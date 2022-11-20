@@ -1,0 +1,22 @@
+<img src="[tiger_release_final_20191027_145754] (imported)" width="1920" height="1080" border="0" usemap="#map" />
+
+<map name="map">
+<!-- #$-:Image map file created by GIMP Image Map plug-in -->
+<!-- #$-:GIMP Image Map plug-in by Maurits Rijk -->
+<!-- #$-:Please do not edit lines starting with "#$" -->
+<!-- #$VERSION:2.3 -->
+<!-- #$AUTHOR:Ray -->
+<area shape="circle" coords="214,290,77" alt="IO" href="IO" />
+<area shape="circle" coords="542,186,62" alt="Mercury" href="mercury" />
+<area shape="circle" coords="501,500,88" alt="Mars" href="mars" />
+<area shape="circle" coords="371,818,73" alt="Titan" href="titan" />
+<area shape="circle" coords="958,638,159" alt="Earth" href="earth" />
+<area shape="circle" coords="1336,430,54" alt="Earths Moon" href="moon" />
+<area shape="circle" coords="1552,797,116" alt="The Tangled Shore" href="tangledShore" />
+<area shape="poly" coords="1642,706,1784,696,1705,431,1647,460" alt="The Dreaming City" href="dreamingCity" />
+<area shape="circle" coords="1578,186,66" alt="Nessus" href="nessus" />
+<area shape="circle" coords="960,241,102" alt="The Tower" href="tower" />
+<area shape="circle" coords="704,826,62" alt="Strikes" href="strikes" />
+<area shape="circle" coords="960,951,70" alt="Gambit" href="gambit" />
+<area shape="circle" coords="1216,822,64" alt="Crucible" href="crucible" />
+</map>

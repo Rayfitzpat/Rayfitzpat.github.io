@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" type="text/css" href="css/w3.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+    <!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" /> -->
+    <title>Titan</title>
+  </head>
+<!-- Body -->
+  <body class="w3-black">
+
+
+    <!-- Header -->
+    <header class="header">
+      <a href="index2.html" class="logo"
+        ><img src="images2/D2Logo3.png" alt="D2Logo" height="30px"
+      /></a>
+      <input class="menu-btn" type="checkbox" id="menu-btn" />
+      <label class="menu-icon" for="menu-btn"
+        ><span class="nav-icon"></span
+      ></label>
+      <ul class="menu">
+        <li><a href="index2.html">Home</a></li>
+        <li><a href="classes.html">Classes</a></li>
+        <li><a href="director.html">Director</a></li>
+        <li><a href="gallery2.html">Gallery</a></li>
+      </ul>
+    </header>
+
+    <!-- MAIN -->
+    
+
+
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+  height: 100%;
+  color: #777;
+  line-height: 1.8;
+}
+
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+.bgimg-1 {
+  background-image: url('images2/titanGuardian.jpg');
+  min-height: 100%;
+}
+
+/* Second image (Portfolio) */
+.bgimg-2 {
+  background-image: url("images2/sentinel_img_right.jpg");
+  min-height: 500px;
+}
+
+/* Third image (Contact) */
+.bgimg-3 {
+  background-image: url("images2/sunbreaker_img_right.jpg");
+  min-height: 500px;
+}
+
+/* Fourth image (Contact) */
+.bgimg-4 {
+  background-image: url("images2/striker_img_right.jpg");
+  min-height: 500px;
+}
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 760px) {
+  .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
+    background-attachment: scroll;
+    min-height: 400px;
+  }
+}
+</style>
+<body>
+
+
+
+<!-- First Parallax Image with Logo Text -->
+<div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+  <div class="w3-display-middle" style="white-space:nowrap;">
+    <span class="w3-center w3-padding-large w3-black  w3-xxlarge w3-wide w3-animate-opacity">The Titan</span>
+  </div>
+</div>
+
+<!-- Container (About Section) -->
+<div class="w3-content w3-container w3-padding-64" id="about">
+  <h3 class="w3-center">Titan</h3>
+  <p class="w3-center" style="color: #777;"><em>"Titans are warriors - heroic defenders of the Light, channeling the gifts of the Traveler to wage war on the Darkness. 
+    Steadfast and sure, Titans face any challenge head-on, blunt force instruments of the Traveler's will." - Grimoire Card: Titan</em></p>
+  <p>They are equipped with suits of powered armor that boost their strength and endurance. Titans utilize their strength and skill with firearms to kill their enemies.
+    Titans have long honed the Light of the Traveler, passing these skills to each new generation of warrior. 
+    Their strength gave birth to the City, and they have taken a blood oath to ensure it will always stand strong. 
+    The Wall surrounding the City was built by the first Titans, who also perished defending it.
+    Steadfast and suresighted, Titans face any challenge head-on, serving as living, blunt force instruments of the Traveler’s will.</p>
+  <div class="w3-row">
+    <div class="w3-col m6 w3-center w3-padding-large">
+      <p><b><i class="fa fa-user w3-margin-right"></i>Commander Zavala</b></p><br>
+      <img src="images2/Zavala.png" alt="Zavala" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Photo of Me" width="500" height="333">
+    </div>
+
+    
+    <div class="w3-col m6  w3-padding-large">
+      <p>Resolute, experienced, strong and charismatic, Zavala is a perfect exemplar of the Titan class of Guardian and a gifted leader that leads the Vanguard with the utmost determination.
+         Zavala's first priority is the protection of the Last City and takes that charge seriously. 
+         No matter what force that seeks the destruction of the Last City, Zavala would face that enemy head-on.
+          His one true goal is to defeat the Last City's enemies and reclaim the Solar System. Zavala has complete faith in the Guardians purpose in defending those in need.
+           For this reason, he doesn't approve of those who doubt the Guardians abilities while espousing the dangers of the Last City's enemies,
+            such as Eris Morn. Despite this, Zavala finds the value and skills in everyone and will defer to their advice when needed.</p>
+            <p style="color: #777;">"What we have built is only the beginning, a symbol of what we can achieve."
+                — Commander Zavala</p>
+    </div>
+  </div>
+  
+  
+    
+  </div>
+</div>
+
+<!-- SENTINEL -->
+
+<!-- Second Parallax Image -->
+<div class="bgimg-2 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle">
+    <span class="w3-xxlarge w3-text-white w3-wide">The Sentinel</span>
+  </div>
+</div>
+
+<!-- Container -->
+<div class="w3-content w3-container w3-padding-64" id="portfolio">
+  <h1 class="w3-center w3-text-purple">Sentinel</h1>
+  <p class="w3-center" style="color: #777;"><em>"Valiant heart, unwavering resolve."</em></p>
+   <p class="w3-center" style="color: rgb(235, 231, 231); font-size: 24px;" > Click on the images for more information</p>
+
+
+ <!-- Super -->
+
+  <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+  <div class="w3-row-padding w3-center">
+    <div class="w3-col l12 w3-center"> <h2 class="w3-text-purple">Super Ability</h2>
+      <img src="images2/icons/sentinelShield.png"  onclick="onClick(this)" class="w3-hover-opacity" 
+      alt="Summon a shield of Void Light.">
+      <h3>Sentinel Shield</h3>
+      
+    </div>
+  </div>
+<!-- Jummping Abilities -->
+  <br>
+  <div class="w3-row-padding w3-center">
+    <h2>Jumping Abilities</h2>
+    <div class="w3-col l4">
+      <img src="images2/icons/highLift3.png"  onclick="onClick(this)" class="w3-hover-opacity" 
+      alt="Jump while airborne to activate Lift and launch into the air at greater heights.">
+      <h3>High Lift</h3>
+    </div>
+
+    <div class="w3-col l4">
+      <img src="images2/icons/strafeLift3.png"  onclick="onClick(this)" class="w3-hover-opacity" 
+      alt="Jump while airborne to activate Lift and launch into the air with strong directional control.">
+      <h3>Strafe Lift</h3>
+    </div>
+
+    <div class="w3-col l4">
+      <img src="images2/icons/catapultLift3.png"  onclick="onClick(this)" class="w3-hover-opacity" 
+      alt="Jump while airborne to activate Lift and launch into the air with a strong initial burst of momentum.">
+      <h3>Catapult Lift</h3>
+    </div>
+  </div>
+
+<!-- Grenade Abilities -->
+
+
+
+  <div class="w3-row-padding w3-center w3-section">
+    <h2 class="w3-text-purple">Grenade Abilities</h2>
+    <div class="w3-col l4">
+      <img src="images2/icons/magneticGrenade.png"  onclick="onClick(this)" class="w3-hover-opacity" 
+      alt="A grenade that attaches to enemies and explodes twice.">
+      <h3>Magnetic Grenade</h3>
+    </div>
+
+    <div class="w3-col l4">
+      <img src="images2/icons/voidwallGrenade.png"  onclick="onClick(this)" class="w3-hover-opacity" 
+      alt="A grenade that creates a horizontal wall of burning Void Light.">
+      <h3>Voidwall Grenade</h3>
+    </div>
+
+    <div class="w3-col l4">
+      <img src="images2/icons/suppressorGrenade.png"  onclick="onClick(this)" class="w3-hover-opacity" 
+      alt="An explosive grenade that prevents enemies from using abilities for a short time.">
+      <h3>Suppressor grenade</h3>
+    </div>
+  </div>
+
+
+<!--  Class Abilities -->
+
+  <div class="w3-row-padding w3-center w3-section">
+    <h2 class="w3-text-purple">Class Abilities</h2>
+    <div class="w3-col l6">
+      <img src="images2/icons/toweringBarricade3.png"   onclick="onClick(this)" class="w3-hover-opacity" 
+      alt="Create a large barrier that can be used to reinforce a position with cover from enemy fire.">
+      <h3>Towering Barricade</h3>
+    </div>
+
+    <div class="w3-col l6">
+      <img src="images2/icons/rallyBarricade3.png"  onclick="onClick(this)" class="w3-hover-opacity" 
+      alt="Create a small barrier that allows you to peek over it while aiming down sights, and that instantly reloads your equipped weapon when you take cover.">
+      <h3>Rally Barricade</h3>
+    </div>
+
+</div>
+</div>
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+
+
+<!-- STRIKER -->
+
+<!-- 4th Parallax Image-->
+<div class="bgimg-4 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle">
+    <span class="w3-xxlarge w3-text-white w3-wide">The Striker</span>
+  </div>
+</div>
+
+<!-- Container  -->
+<div class="w3-content w3-container w3-padding-64" id="portfolio">
+  <h1 class="w3-center w3-text-blue">Striker</h1>
+  <p class="w3-center" style="color: #777;"><em>"At close quarters a fist is better than any gun"</em></p>
+
+  <!-- Super -->
+
+  <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+  <div class="w3-row-padding w3-center">
+    <div class="w3-col l12 w3-center"> <h2 class="w3-text-blue">Super Ability</h2>
+      <img src="images2/icons/fistsOfHavoc.png"  onclick="onClick(this)" class="w3-hover-opacity" 
+      alt="Supercharge your fists and slam the ground with the force of a maelstrom.">
+      <h3>Fists of Havoc</h3>
+      
+    </div>
+  </div>
+<!-- Jummping Abilities -->
+  <br>
+  <div class="w3-row-padding w3-center">
+    <h2 class="w3-text-blue">Jumping Abilities</h2>
+    <div class="w3-col l4">
+      <img src="images2/icons/highLift.png"  onclick="onClick(this)" class="w3-hover-opacity" 
+      alt="Jump while airborne to activate Lift and launch into the air at greater heights.">
+      <h3>High Lift</h3>
+    </div>
+
+    <div class="w3-col l4">
+      <img src="images2/icons/strafeLift.png"  onclick="onClick(this)" class="w3-hover-opacity" 
+      alt="Jump while airborne to activate Lift and launch into the air with strong directional control.">
+      <h3>Strafe Lift</h3>
+    </div>
+
+    <div class="w3-col l4">
+      <img src="images2/icons/catapultLift.png"  onclick="onClick(this)" class="w3-hover-opacity" 
+      alt="Jump while airborne to activate Lift and launch into the air with a strong initial burst of momentum.">
+      <h3>Catapult Lift</h3>
+    </div>
+  </div>
+
+<!-- Grenade Abilities -->
+
+
+
+  <div class="w3-row-padding w3-center w3-section">
+    <h2 class="w3-text-blue">Grenade Abilities</h2>
+    <div class="w3-col l4">
+      <img src="images2/icons/flashBangGrenade.png"  onclick="onClick(this)" class="w3-hover-opacity" 
+      alt="An explosive grenade that disorients enemies it damages.">
+      <h3>Flashbang Grenade</h3>
+    </div>
+
+    <div class="w3-col l4">
+      <img src="images2/icons/pulseGrenade.png"  onclick="onClick(this)" class="w3-hover-opacity" 
+      alt=" A grenade that periodically damages enemies inside its explosion radius.">
+      <h3>Pulse Grenade</h3>
+    </div>
+
+    <div class="w3-col l4">
+      <img src="images2/icons/lightningGrenade.png"  onclick="onClick(this)" class="w3-hover-opacity" 
+      alt="A grenade that sticks to any surface and emits bolts of lightning.">
+      <h3>Lightning grenade</h3>
+    </div>
+  </div>
+
+
+<!--  Class Abilities -->
+
+  <div class="w3-row-padding w3-center w3-section">
+    <h2 class="w3-text-blue">Class Abilities</h2>
+    <div class="w3-col l6">
+      <img src="images2/icons/toweringBarricade.png"  onclick="onClick(this)" class="w3-hover-opacity" 
+      alt="Create a large barrier that can be used to reinforce a position with cover from enemy fire.">
+      <h3>Towering Barricade</h3>
+    </div>
+
+    <div class="w3-col l6">
+      <img src="images2/icons/rallyBarricade.png"  onclick="onClick(this)" class="w3-hover-opacity" 
+      alt="Create a small barrier that allows you to peek over it while aiming down sights, and that instantly reloads your equipped weapon when you take cover.">
+      <h3>Rally Barricade</h3>
+    </div>
+
+  </div>
+</div>
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+
+
+
+
+<!-- SUNBREAKER -->
+
+
+
+<!-- Third Parallax Image  -->
+<div class="bgimg-3 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle">
+     <span class="w3-xxlarge w3-text-white w3-wide">The Sunbreaker</span>
+  </div>
+</div>
+
+<!-- Container  -->
+<div class="w3-content w3-container w3-padding-64" id="contact">
+  <h1 class="w3-center w3-text-deep-orange">Sunbreaker</h1>
+  <p class="w3-center" style="color: #777;"><em>"Forged in the fury of undying suns."</em></p>
+
+ <!-- Super -->
+
+  <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+  <div class="w3-row-padding w3-center">
+    <div class="w3-col l12 w3-center"> <h2 class="w3-text-deep-orange">Super Ability</h2>
+      <img src="images2/icons/hammerOfSol.png"  onclick="onClick(this)" class="w3-hover-opacity" 
+      alt="Summon a flaming hammer and wreak destruction down upon your enemies.">
+      <h3>Hammer of Sol</h3>
+      
+    </div>
+  </div>
+<!-- Jummping Abilities -->
+  <br>
+  <div class="w3-row-padding w3-center">
+    <h2 class="w3-text-deep-orange">Jumping Abilities</h2>
+    <div class="w3-col l4">
+      <img src="images2/icons/highLift2.png"  onclick="onClick(this)" class="w3-hover-opacity" 
+      alt="Jump while airborne to activate Lift and launch into the air at greater heights.">
+      <h3>High Lift</h3>
+    </div>
+
+    <div class="w3-col l4">
+      <img src="images2/icons/strafeLift2.png"  onclick="onClick(this)" class="w3-hover-opacity" 
+      alt="Jump while airborne to activate Lift and launch into the air with strong directional control.">
+      <h3>Strafe Lift</h3>
+    </div>
+
+    <div class="w3-col l4">
+      <img src="images2/icons/catapultLift2.png"  onclick="onClick(this)" class="w3-hover-opacity" 
+      alt="Jump while airborne to activate Lift and launch into the air with a strong initial burst of momentum.">
+      <h3>Catapult Lift</h3>
+    </div>
+  </div>
+
+<!-- Grenade Abilities -->
+
+
+
+  <div class="w3-row-padding w3-center w3-section">
+    <h2 class="w3-text-deep-orange">Grenade Abilities</h2>
+    <div class="w3-col l4">
+      <img src="images2/icons/incendiaryGrenade.png"  onclick="onClick(this)" class="w3-hover-opacity" 
+      alt="A grenade that sets enemies on fire when it explodes.">
+      <h3>Incendiary Grenade</h3>
+    </div>
+
+    <div class="w3-col l4">
+      <img src="images2/icons/thermiteGrenade.png"  onclick="onClick(this)" class="w3-hover-opacity" 
+      alt="A grenade that sends forward a burning line of fire.">
+      <h3>Thermite Grenade</h3>
+    </div>
+
+    <div class="w3-col l4">
+      <img src="images2/icons/fusionGrenade.png"  onclick="onClick(this)" class="w3-hover-opacity" 
+      alt=" An explosive grenade that deals bonus damage when it attaches to a target.">
+      <h3>Fusion grenade</h3>
+    </div>
+  </div>
+
+
+<!--  Class Abilities -->
+
+  <div class="w3-row-padding w3-center w3-section">
+    <h2 class="w3-text-deep-orange">Class Abilities</h2>
+    <div class="w3-col l6">
+      <img src="images2/icons/toweringBarricade2.png"  onclick="onClick(this)" class="w3-hover-opacity" 
+      alt="Create a large barrier that can be used to reinforce a position with cover from enemy fire.">
+      <h3>Towering Barricade</h3>
+    </div>
+
+    <div class="w3-col l6">
+      <img src="images2/icons/rallyBarricade2.png"  onclick="onClick(this)" class="w3-hover-opacity" 
+      alt="Create a small barrier that allows you to peek over it while aiming down sights, and that instantly reloads your equipped weapon when you take cover.">
+      <h3>Rally Barricade</h3>
+    </div>
+
+  </div>
+</div>
+
+</div>
+
+<!-- Modal & Script -->
+
+ 
+<script>
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+// Change style of navbar on scroll
+window.onscroll = function() {myFunction()};
+function myFunction() {
+    var navbar = document.getElementById("myNavbar");
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+    } else {
+        navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
+    }
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function toggleFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+<!-- Social Media -->
+    <div style="padding-top: 20px;" class="w3-row w3-margin-bottom w3-center">
+      <div class="w3-half w3-padding w3-center w3-image">
+        <a href="https://twitter.com/DestinyTheGame" target="_Blank">
+          <img style="padding-right: 10px;"
+            src="https://cdn1.iconfinder.com/data/icons/logotypes/32/twitter-128.png"
+            height="40px;"
+            alt="Twitter Logo"
+            class="twitter-icon"
+        /></a>
+        <a
+          href="https://www.facebook.com/gaming/destiny2/?sub_view=videos&fbsource=1103&external_ref=game_search_unit"
+          target="_Blank">
+          <img style="padding-right: 10px;"
+            src="http://www.iconarchive.com/download/i54037/danleech/simple/facebook.ico"
+            height="40px;"
+            alt="Facebook Logo"
+            class="facebook-icon"
+        /></a>
+        <a
+          href="https://www.reddit.com/r/destiny2/"
+          target="_Blank">
+          <img
+            src="images2/reddit.png"
+            height="40px;"
+            alt="reddit Logo"
+            class="facebook-icon"
+        /></a>
+        
+      </div>
+
+      <div class="w3-half w3-padding w3-center w3-image">
+        <p>
+          Project by 
+        <!-- </p> -->
+        <!-- <div class="w3-container w3-black"> -->
+          <button
+            onclick="document.getElementById('id01').style.display='block'"
+            class="w3-button w3-black w3-large"
+          >
+            <span style="color: blueviolet;">Ray Fitzpatrick</span>
+          </button>
+
+          <div id="id01" class="w3-modal w3-black">
+            <div
+              class="w3-modal-content w3-card-4 w3-animate-zoom w3-black"
+              style="max-width:600px"
+            >
+              <div class="w3-center">
+                <br />
+                <span
+                  onclick="document.getElementById('id01').style.display='none'"
+                  class="w3-button w3-xlarge w3-hover-red w3-display-topright"
+                  title="Close Modal"
+                  >&times;</span
+                >
+              </div>
+          </p>
+              <form
+                class="w3-container w3-card-4 w3-black"
+                action="/action_page.php"
+              >
+                <h2 class="w3-text-grey">Enter Your Details</h2>
+
+                <p>
+                  <label class="w3-text-deep-orange"><b>First Name</b></label>
+                  <input class="w3-input w3-border" name="first" type="text" />
+                </p>
+
+                <p>
+                  <label class="w3-text-deep-orange"><b>Last Name</b></label>
+                  <input class="w3-input w3-border" name="last" type="text" />
+                </p>
+
+                <p>
+                  <label class="w3-text-deep-orange"><b>Contact Number</b></label>
+                  <input class="w3-input w3-border" number="phone" type="tel" />
+                </p>
+
+                <p>
+                  <label class="w3-text-deep-orange"><b>Your Message</b></label>
+                  <input
+                    class="w3-input w3-border"
+                    message="message"
+                    type="text"
+                  />
+                </p>
+
+                <p>
+                  <button class="w3-btn w3-blue">Submit</button>
+                </p>
+              </form>
+
+              <div class="w3-container w3-border-top w3-padding-16 w3-black">
+                <button
+                  onclick="document.getElementById('id01').style.display='none'"
+                  type="button"
+                  class="w3-button w3-red"
+                >
+                  Cancel
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</body>
+</html>
+
+    
+    </body>
+    </html>
+    
+    

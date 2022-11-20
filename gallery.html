@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html>
+<title>Gallery</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/style.css">
+
+
+<style>
+.bgimg {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('images/editing5.JPG');
+  /* filter: grayscale(); */
+  /* opacity: 80%; */
+  min-height: 100%;
+
+}
+body{
+    background-color: black;
+    color: blanchedalmond;
+}
+
+</style>
+<body>
+
+<!-- Sidebar with image -->
+<nav class="w3-sidebar w3-hide-medium w3-hide-small" style="width:30%">
+  <div class="bgimg"></div>
+</nav>
+
+<!-- Hidden Sidebar (reveals when clicked on menu icon)-->
+<nav class="w3-sidebar w3-black w3-animate-right w3-xxlarge" style="display:none;padding-top:150px;right:0;z-index:2" id="mySidebar">
+  <a href="javascript:void(0)" onclick="closeNav()" class="w3-button w3-black w3-xxxlarge w3-display-topright" style="padding:0 12px;">
+    <i class="fa fa-remove"></i>
+  </a>
+  <div class="w3-bar-block w3-center">
+    <a href="index.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Home</a>
+    <a href="studies.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Studies</a>
+    <a href="gallery.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Gallery of Projects</a>
+    <a href="work.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Work Experience</a>
+  </div>
+</nav>
+
+<!-- Page Content -->
+<div class="w3-main w3-padding-large" style="margin-left:30%">
+
+  <!-- Menu icon to open sidebar -->
+  <span class="w3-button w3-top w3-white w3-xxlarge w3-text-grey w3-hover-text-black" style="width:auto;right:0;" onclick="openNav()"><i class="fa fa-bars"></i></span>
+
+<!-- Header -->
+<header class="w3-container w3-center" style="padding-top:28px; padding-bottom: 50px;" id="home">
+    <h1 class="w3-jumbo"><b>Some Notable Projects</b></h1>
+    <p>A selection of projects I have worked on.  </p>
+  
+  </header>
+
+
+   <!-- Row 1 Picture  -->
+
+
+   <div class="w3-row-padding w3-padding">
+      <div class="w3-container w3-third">
+        <img
+          src="images/JDBCProject.png"
+          style="width:100%;cursor:pointer"
+          alt="image1"
+          onclick="onClick(this)"
+          class="w3-hover-opacity"
+        />
+      
+        <br>
+        <p align="center">JDBC SQL Project</p>
+        <div class="w3-button w3-half w3-center w3-light-greyf">
+          <a href="https://github.com/Rayfitzpat/SQLMovies">Git Hub</a>
+          
+          </div>
+            <div class="w3-button w3-half w3-center w3-dark-greyf">
+              <a href="https://youtu.be/jtZqc5pChaY">Demo</a> 
+              <br>
+            </div>
+            <br>
+            <p>
+              <br>
+              A 4th year project using Java, SQL and JDBC.
+              I created a GUI that enabled the user to manipulate a movie database using CRUD commands
+              as well as SQL features such as stored programs, stored features, events, triggers and views.
+            </p>
+          </div>
+          <div class="w3-container w3-third w3-center">
+            <img
+              src="images/maths.JPG"
+              style="width:100%;cursor:pointer"
+              alt="image5"
+              onclick="onClick(this)"
+              class="w3-hover-opacity"
+            />
+            <p align="center"> Maths Web site</p>
+      
+            <div class="w3-button w3-half w3-center w3-dark-greyf">
+              <a href= "https://github.com/Rayfitzpat/mathsSite" target="_blank">Git Hub</a>
+              </div>
+              <div class="w3-button w3-half w3-center w3-dark-greyf">
+                <a href="http://raymaths.byethost6.com/index.html" target="_blank">Live Demo</a> 
+            </div>
+            <br>
+            <p>
+            <br>
+            A multi functional maths based website built using HTML, CSS and Javascript.
+            I also used some external libraries to create the floating effect on the splash page and 
+            the card effect on the index page.
+          </p>
+          </div>
+        
+          <div class="w3-container w3-third w3-center">
+            <img
+              src="images/destiny.JPG"
+              style="width:90%;cursor:pointer"
+              alt="image3"
+              onclick="onClick(this)"
+              class="w3-hover-opacity"
+              
+            />
+          <p align="center"> Destiny Web Project</p>
+          <div class="w3-button w3-half w3-dark-greyf">
+            <a href="https://github.com/Rayfitzpat/NewspaperDelivery">Git Hub</a>
+          </div>
+          <div class="w3-button w3-half w3-center w3-dark-greyf">
+              <a href="index2.html" target="_blank">Live Demo</a> 
+          </div>
+          <br>
+          <p>
+          <br>
+          My first effort at a website in first year.  This was dedicated to the game Destiny 2 and 
+          I got to showcase what I had learned and was amazed at the results in only 10 weeks of Web Development.
+        </p>
+      </div>
+      </div>
+<br>
+<br>
+  <!-- Row 2 Pictures -->
+  
+  <div class="w3-row-padding w3-padding">
+    <br>
+    <br>
+    <div class="w3-container w3-third w3-center">
+      <img
+        src="images/NewspaperLogo2.png"
+        style="width:82%;cursor:pointer"
+        alt="image2"
+        onclick="onClick(this)"
+        class="w3-hover-opacity"
+      />
+    </br>
+      <p align="center"> Newspaper Delivery System</p>
+      <div class="w3-button w3-center w3-dark-greyf">
+        <a href="https://github.com/Rayfitzpat/NewspaperDelivery">Git Hub</a>
+        </div>
+        <br>
+        <p>
+        <br>
+        My second year group project tasked us with creating a newspaper delivery system.
+        We used Java, SQL and JDBC to create the backend and I created the GUI to give the user an interface to work with.
+        This was my first oppertunity to use Agile and Scrum at project level and my team thrived with it.
+        I was responsible for desinging, coding and testing the delivery person segment, the entire GUI and most of the initial database.
+        I also converted all our Sprint 1 code to be compatible with the GUI as it was initially designed for use in a CLI.
+        I achieved 97% in my 2nd year project and was extremely proud of what we achieved as a group.
+      </p>
+    </div>
+    <div class="w3-container w3-third w3-center">
+      <img
+        src="images/weather2.JPG"
+        style="width:88%;cursor:pointer"
+        alt="image4"
+        onclick="onClick(this)"
+        class="w3-hover-opacity"
+      />
+      <p align="center"> Weather Website</p>
+     
+      <div class="w3-button w3-center w3-dark-greyf">
+        <a href= "https://github.com/Rayfitzpat/Weather-Project" target="_blank">Git Hub</a>
+        </div>
+        <div class="w3-button w3-half w3-center w3-dark-greyf">
+          <a href="index3.html" target="_blank">Live Demo</a> 
+      </div>
+        <br>
+        <p>
+        <br>
+        An introduction to using API's.  I created this site and linked it to a weather API that updates 
+        automatically and gives daily and weekly forecasts.  You can search any world city and it also
+        displays in metric and imperial measurements.
+        The icons and background change depending on the weather.
+        A geolocation section was also added to show the users location on a map and automatically set the current weather to this area.
+      </p>
+    </div>
+    <div class="w3-container w3-third w3-center">
+      <img
+        src="images/carzone.JPG"
+        style="width:105%;cursor:pointer"
+        alt="image5"
+        onclick="onClick(this)"
+        class="w3-hover-opacity"
+      />
+      <p align="center"> Carzone.ie web Scraping</p>
+     
+      <div class="w3-button w3-center w3-dark-greyf">
+        <a href= "https://github.com/Rayfitzpat/CarzoneScraping" target="_blank">Git Hub</a>
+        </div>
+        <br>
+        <p>
+        <br>
+        This 4th year project introduced me to web scraping and data visualisation.
+        I used python and a number of libraries including Beautiful Soup, Selenium, pandas and plotly.
+        I loved this project and have since scraped many sites on my own time. 
+      </p>
+    </div>
+    
+</div>
+
+   <!-- Row 3 Pictures -->
+  
+  <div class="w3-row-padding w3-padding">
+    <br>
+    <br>
+    <div class="w3-container w3-third w3-center">
+      <img
+        src="images/connectfour.JPG"
+        style="width:100%;cursor:pointer"
+        alt="image4"
+        onclick="onClick(this)"
+        class="w3-hover-opacity"
+      />
+      <p align="center"> Connect 4 Game in Java</p>
+      
+      <div class="w3-button w3-center w3-dark-greyf">
+        <a href= "https://github.com/Rayfitzpat/ConnectFour" target="_blank">Git Hub</a>
+        </div>
+        <br>
+        <p>
+        <br>
+        A second year Java and swing project to create a functional connect 4 game.
+        I added scoring and win conditions.  This was a good project to practice swing, which I find quite outdated and clunky but 
+        it was good to get a working application from the project.
+      </p>
+    </div>
+    <div class="w3-container w3-third w3-center">
+        <p></p>
+      </div>
+
+    <div class="w3-container w3-third w3-center">
+      <img
+        src="images/vactorenterprise.JPG"
+        style="width:75%;cursor:pointer"
+        alt="image6"
+        onclick="onClick(this)"
+        class="w3-hover-opacity"
+      />
+      <p align="center"> Star Trek Mobile App</p>
+   
+      <div class="w3-button w3-center w3-dark-greyf">
+        <a href= "https://github.com/Rayfitzpat/StarTrekMobileApp" target="_blank">Git Hub</a>
+        </div>
+        <br>
+        <p>
+        <br>
+        I built this project in 3 stages over the course of a semester in second year.
+        Initially I created a basic Star Trek fan app but expanded it with advanced features such as cloud storage,
+        registration and login using Google Firebase to store and query information.
+        A very enjoyable project where I got to use Android Studio and get a taste for Kotlin.  
+      </p>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <!-- <a href="https://www.linkedin.com/in/ray-fitzpatrick-351a801a2/" target="_blank">
+  
+    <footer class="w3-container w3-padding-64 w3-black w3-center w3-opacity w3-xlarge" style="margin:-24px">
+      <i class="fa fa-linkedin w3-hover-opacity"></i> 
+     </a> -->
+    <!-- End footer  -->
+    <!-- </footer>  -->
+
+  <script>
+    // Open and close sidebar
+    function openNav() {
+      document.getElementById("mySidebar").style.width = "70%";
+      document.getElementById("mySidebar").style.display = "block";
+    }
+    
+    function closeNav() {
+      document.getElementById("mySidebar").style.display = "none";
+    }
+    </script>
+    <script src="typed.js"></script>
+    <script src="js.js"></script>
+</body>
+</html>

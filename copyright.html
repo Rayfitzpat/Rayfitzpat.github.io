@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<title>Copyright</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/style.css">
+
+<style>
+    body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+    .w3-row-padding img {margin-bottom: 12px}
+    .bgimg {
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-image: url('images/copyright3.jpg');
+      /* filter: grayscale(); */
+      /* opacity: 80%; */
+      min-height: 100%;
+      /* size: 50%; */
+    
+    }
+
+    body{
+      background-color: black;
+      color: blanchedalmond;
+    }
+    </style>
+
+<body>
+
+<!-- Sidebar with image -->
+<nav class="w3-sidebar w3-hide-medium w3-hide-small" style="width:30%">
+  <div class="bgimg"></div>
+</nav>
+
+<!-- Hidden Sidebar (reveals when clicked on menu icon)-->
+<nav class="w3-sidebar w3-black w3-animate-right w3-xxlarge" style="display:none;padding-top:150px;right:0;z-index:2" id="mySidebar">
+  <a href="javascript:void(0)" onclick="closeNav()" class="w3-button w3-black w3-xxxlarge w3-display-topright" style="padding:0 12px;">
+    <i class="fa fa-remove"></i>
+  </a>
+  <div class="w3-bar-block w3-center">
+    <a href="index.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Home</a>
+    <a href="about.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Studies</a>
+    <a href="gallery.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Gallery</a>
+    <a href="sound.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Sound Editing</a>
+    <a href="visual.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Screencast</a>
+    <a href="copyright.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Copyright Statement</a>
+  </div>
+</nav>
+
+<!-- Page Content -->
+<div class="w3-main w3-padding-large" style="margin-left:30%">
+
+  <!-- Menu icon to open sidebar -->
+  <span class="w3-button w3-top w3-white w3-xxlarge w3-text-grey w3-hover-text-black" style="width:auto;right:0;" onclick="openNav()"><i class="fa fa-bars"></i></span>
+
+<!-- Header -->
+<header class="w3-container w3-center" style="padding-top:28px; padding-bottom: 20px;" id="home">
+    <h1 class="w3-jumbo"><b>Copyright Statement</b></h1>
+    <!-- <p>Manipulating sound files with Audacity</p> -->
+   
+    
+  </header>
+
+
+
+
+   
+
+   <div class="w3-row-padding w3-padding">
+    <div class="w3-container w3-center ">
+      <img
+        src="images/copyright.png"
+        style="width:100%;cursor:pointer; height: 200px; width: auto;"
+        alt="copyright"
+       
+      />
+    </div>
+    <div class="w3-container  " style="margin-top: 20px;">
+     <p>This website and its content are copyright of Ray Fitzpatrick - © RayFitzpatrick 2020. All rights reserved.<br>
+      Images were either created by me or are free to reuse for non-commercial purposes.<br>
+      All copyrights belong to their respective owners. Materials owned by other copyright holders are 
+      used here under open source free downloads. All materials are used here only for the education of my college assignments and are not intended to generate income for the college,
+       its employees, or its students. Please don’t hesitate to contact me if you wish to have anything removed.<br>
+        Any redistribution or reproduction of part or all of the contents in any form is prohibited other than the following:<br>
+        •	You may print or download the CV to a local hard drive as a prospective employer for interview or employemnt use only.
+        <br>
+        <br>
+        Unauthorized use and/or duplication of this material without express and written permission from this site’s author and/or owner is strictly prohibited.<br>
+      
+        </p><br>
+        <p class="w3-center">&copy; Ray Fitzpatrick 2020</p>
+      
+  </div>
+ 
+  <script>
+    // Open and close sidebar
+    function openNav() {
+      document.getElementById("mySidebar").style.width = "70%";
+      document.getElementById("mySidebar").style.display = "block";
+    }
+    
+    function closeNav() {
+      document.getElementById("mySidebar").style.display = "none";
+    }
+    </script>
+    <script src="typed.js"></script>
+    <script src="js.js"></script>
+</body>
+</html>

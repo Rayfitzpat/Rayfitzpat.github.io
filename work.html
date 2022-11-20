@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<title>Work Experience</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/style.css">
+
+<style>
+    body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+    .w3-row-padding img {margin-bottom: 12px}
+    .bgimg {
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-image: url('images/work.jpg');
+      /* filter: grayscale(); */
+      /* opacity: 80%; */
+      min-height: 100%;
+    
+    }
+
+    body{
+      background-color: black;
+      color: blanchedalmond;
+    }
+    </style>
+
+<body>
+
+<!-- Sidebar with image -->
+<nav class="w3-sidebar w3-hide-medium w3-hide-small" style="width:30%">
+  <div class="bgimg"></div>
+</nav>
+
+<!-- Hidden Sidebar (reveals when clicked on menu icon)-->
+<nav class="w3-sidebar w3-black w3-animate-right w3-xxlarge" style="display:none;padding-top:150px;right:0;z-index:2" id="mySidebar">
+  <a href="javascript:void(0)" onclick="closeNav()" class="w3-button w3-black w3-xxxlarge w3-display-topright" style="padding:0 12px;">
+    <i class="fa fa-remove"></i>
+  </a>
+  <div class="w3-bar-block w3-center">
+    <a href="index.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Home</a>
+    <a href="studies.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Studies</a>
+    <a href="gallery.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Gallery</a>
+    <a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Work Experience</a>
+  </div>
+</nav>
+
+<!-- Page Content -->
+<div class="w3-main w3-padding-large" style="margin-left:30%">
+
+  <!-- Menu icon to open sidebar -->
+  <span class="w3-button w3-top w3-white w3-xxlarge w3-text-grey w3-hover-text-black" style="width:auto;right:0;" onclick="openNav()"><i class="fa fa-bars"></i></span>
+
+<!-- Header -->
+<header class="w3-container w3-center" style="padding-top:28px; padding-bottom: 50px;" id="home">
+    <h1 class="w3-jumbo"><b>Work Experience</b></h1>
+    <h3>Software Engineering</h3>
+    <br>
+    <p>2020</p>
+    <div> 
+      <i><strong>Ericsson Athlone 3 month internship</strong></i>
+      <br>
+      After finishing first year in TUS, I had the oppertunity to work for Ericsson for 3 months as a summer intern.  
+      I gained invaluable experience working with a team within the software industry and was exposed to Agile & Scrum for the first time.
+      It was a daunting experience at times but it certainly propelled me forward and gave me a great insight into the industry. 
+      I was able to take a lot of what I learned and use it in my 2nd year studies, especially in the group project where I could pass what I learned to my team. 
+    </div>
+
+    <br>
+    <p>2021</p>
+    <div>
+      <i><strong>Ericsson Athlone 3 month internship</strong></i>
+      <br>
+     Again, after my 2nd year I was asked back to Ericsson for another 3 months.  This time I felt like I could contribute a lot more to the team as my knowledge had increased in 
+     areas such as Java and Javascript.  This certainly helped me to adapt to my new team quickly and I was able to complete more tasks and stories given to me.
+     I got to learn a lot more about ENM, Ericsson's Network Management system and even got to add some small features to it.
+     I also gained experience working with virtual machines, linux and testing on virtual servers.
+
+    </div>
+
+    <br>
+    <p>2022</p>
+    <div> 
+      <i><strong>Ericsson Athlone 8 month college placement</strong></i>
+      <br>
+      This was my goal when I started my course, I wanted to experience a tech company for an extended period and I certainly got that experience with 8 months spent in Ericsson from 
+      january to August 2022.  I had a new team this time and a lot was expected of me.  I got to work in an area called modelling, a complex area where models define how applications 
+      behave in ENM.  Invaluale experience here working on production code, creating and completing stories, tasks, improvements and spikes. I also got to deal with support tickets and 
+      delved into how ENM's architecture layers work.
+      I also gained experience working with physical, virtual and cloud servers to test code.  This really enhanced my knowledge of linux and bash scripting.
+      <br>
+      Towards the end of my placement, I had the oppertunity to work with the INFUSE (investing in future software engineers) program.  This was a month long program that
+      saw myself and some colleagues teach Java, Android studio, agile and GitHub to 14 students aged 16-18. A hugely rewarding experience that ignited a passion for teaching and sharing 
+      my knowledge of code. This trial program was a great success and will now be carried out 3 times per year going forward.
+    </div>
+    
+
+<br>
+<br>
+<br>
+    <H3>Hotel Management</H3>
+<br>
+<div> 
+  I have 15 years experience working in hotels as a manager, from duty management to deputy general manager.  I believe that the skills I learned during this time 
+  will be highly transferable to my software career and help me to adjust to any team I work with.
+  I am a very outgoing, people person and my leadership experience really helps me in group situations.
+</div>
+  </header>
+
+
+
+
+   <!-- Row 1 Picture  -->
+
+  
+  <script>
+    // Open and close sidebar
+    function openNav() {
+      document.getElementById("mySidebar").style.width = "70%";
+      document.getElementById("mySidebar").style.display = "block";
+    }
+    
+    function closeNav() {
+      document.getElementById("mySidebar").style.display = "none";
+    }
+    </script>
+    <script src="typed.js"></script>
+    <script src="js.js"></script>
+</body>
+</html>

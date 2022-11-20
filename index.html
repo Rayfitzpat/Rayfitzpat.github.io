@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+<title>Ray Fitzpatrick</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/style.css">
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+.bgimg {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('code.jpg');
+  /* filter: grayscale(); */
+  /* opacity: 80%; */
+  min-height: 100%;
+
+}
+
+   .text-body {
+    height: 250px;
+    background-color: rgba(0, 0, 0, 0.85);
+    padding: 10px;
+    color: #f0f0f0;
+    text-shadow: #000 0px 1px 0px;
+    font-family: "Consolas", "Courier New", "Courier";
+    font-size: 1.45em;
+    line-height: 1.40em;
+    font-weight: 500;
+    text-align: left;
+    overflow: hidden;
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -ms-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+    margin-right: 20%;
+    margin-left: 20%;
+}
+        
+    .title-bar {
+    padding: 5px 0;
+    font-family: "Lucida Grande", sans-serif;
+    font-size: 0.75em;
+    text-align: center;
+    text-shadow: rgba(255, 255, 255, 0.8) 0px 1px 0px;
+    background-color: #f8f8f8;
+    background-image: -webkit-linear-gradient(top, #e8e8e8, #bcbbbc);
+    background-image: -moz-linear-gradient(top, #e8e8e8, #bcbbbc);
+    background-image: linear-gradient(top, #e8e8e8, #bcbbbc);
+    box-shadow: inset rgba(255, 255, 255, 0.7) 0px 1px 1px;
+    border-bottom: #6a6a6a 1px solid;
+    margin-right: 20%;
+    margin-left: 20%;
+        }
+</style>
+<body>
+
+<!-- Sidebar with image -->
+<nav class="w3-sidebar w3-hide-medium w3-hide-small" style="width:30%">
+  <div class="bgimg"></div>
+</nav>
+
+<!-- Hidden Sidebar (reveals when clicked on menu icon)-->
+<nav class="w3-sidebar w3-black w3-animate-right w3-xxlarge" style="display:none;padding-top:150px;right:0;z-index:2" id="mySidebar">
+  <a href="javascript:void(0)" onclick="closeNav()" class="w3-button w3-black w3-xxxlarge w3-display-topright" style="padding:0 12px;">
+    <i class="fa fa-remove"></i>
+  </a>
+  <div class="w3-bar-block w3-center">
+    <a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Home</a>
+    <a href="studies.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Studies</a>
+    <a href="gallery.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Gallery of Projects</a>
+    <a href="work.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Work Experience</a>
+  </div>
+</nav>
+
+<!-- Page Content -->
+<div class="w3-main w3-padding-large" style="margin-left:30%">
+
+  <!-- Menu icon to open sidebar -->
+  <span class="w3-button w3-top w3-black w3-xxlarge w3-text-grey w3-hover-text-black" style="width:auto;right:0;" onclick="openNav()"><i class="fa fa-bars"></i></span>
+
+  <!-- Header -->
+  <header class="w3-container w3-center" style="padding-top:128px; padding-bottom: 50px;" id="home">
+    <h1 class="w3-jumbo"><b>Ray Fitzpatrick</b></h1>
+    <p>4th Year Engineering Student and Aspiring Software Engineer.</p>
+    <img src="images/rayCover.png" class="w3-image w3-hide-large w3-hide-small w3-round" style="display:block;width:60%;margin:auto;">
+    <img src="images/rayCover.png" class="w3-image w3-hide-large w3-hide-medium w3-round" width="1000" height="1333">
+    <button class="w3-button w3-light-grey w3-padding-large w3-margin-top">
+      <a href="CV2020.docx" download="CV2020.docx"><i class="fa fa-download"></i> Download Resume</a>
+    </button>
+    <button class="w3-button w3-light-grey w3-padding-large w3-margin-top">
+        <a href="https://github.com/Rayfitzpat/Year1-Java"><i class="fa fa-download"></i> View GitHub</a>
+      </button>
+  </header>
+
+<!-- Console window -->
+  <div class="title-bar">Ray Fitzpatrick.test</div>  
+  <div class="text-body" >
+    <p>Microsoft Windows [Looking for a job Version (c) 2022]</p>
+      <p>  Hello World </p>
+      <div id="typed-strings" >
+          <p>Ray Fitzpatrick is  ^750 <strong>a student in software engineering.</strong> </p>
+          <p>Ray Fitzpatrick is  ^750 <strong>hard working.</strong></p>
+          <p>Ray Fitzpatrick is  ^750 <strong>self motivated.</strong></p>
+          <p>Ray Fitzpatrick is  ^1000 <strong>on target for a 1.1 honours degree.</strong></p>
+   
+     <p> Contact me for more details.</p>
+      </div>  
+     <span id="typed"></span>
+     
+      
+  </div>
+
+ <!-- About Section -->
+ <div class="w3-content w3-justify w3-text-grey w3-padding-32" id="about">
+  <h2>About Me</h2>
+  <hr class="w3-opacity">
+  <div class="w3-row">
+  <p class="w3-quarter w3-hide-small w3-hide-medium"><img src="images/rayCover2.png"></p>
+  <p class="w3-threequarter">My name is Ray Fitzpatrick and I am a former Hotel Manager. After spending almost 15 years in the Tourism industry, I decided that I wanted to make a career change
+     and follow my real life passion which lies in technology and computers.  I am currently in my final year in TUS Athlone studying 
+     Software Engineering with Cloud Computing and I am on track to achieve a 1.1 Honours Degree.
+     <br>
+     My hobbies outside of college include watching TV, especially science fiction, video games and I have been 
+     supporting LFC my entire life, although I don't get to watch them play in person as much as I would like.
+     I have 2 dogs, a 13 year old Shih Tzu called Suzie and a 7 year old Pug called Pepper.
+  </p>
+</div>
+
+  <!-- Portfolio Section -->
+  <div class=" w3-content" id="portfolio"></br>
+    <h2 class="w3-text-grey">My Portfolio</h2>
+    <hr class="w3-opacity">
+
+
+    <!--  Grid for menu items-->
+<div class="w3-row-padding" style="margin:0 -16px">
+  <div class="w3-third w3-center w3-xlarge" >
+    <a href="studies.html">Studies</a>
+  </div>
+  <div class="w3-third w3-center w3-xlarge">
+    <a href="gallery.html">Projects</a>
+  </div>
+  <div class="w3-third w3-center w3-xlarge">
+    <a href="work.html">Work Experience</a>
+  </div>
+
+<!-- Pics for portfolio section -->
+  <div class="w3-row-padding" style="margin:0 -16px">
+    <div class="w3-third">
+      <a href="studies.html"><img src="images/tus.jpg" style="width:100%; max-height: 320px; filter:grayscale(100%) "> </a>
+    </div>
+
+    <div class="w3-third">
+      <br>
+      <a href="gallery.html"><img src="images/github.png" style="width:100%; max-height: 320px;"></a>
+      
+    </div>
+    <div class="w3-third">
+      <a href="work.html"><img src="images/ericsson1.jpg" style="width:100%; max-height: 320px;"></a>
+      
+    </div>
+
+<br>
+<br>
+<br>
+</div>
+
+   
+  </div>
+    
+    <hr>
+    <h3 class="w3-padding-16">My Skills</h3>
+    <p class="w3-wide">Java</p>
+    <div class="w3-light-grey">
+      <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:100%">High proficiency, multiple projects and applications built in Java. </div>
+    </div>
+    <p class="w3-wide">Python</p>
+    <div class="w3-light-grey">
+      <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:100%">Intermediate knowledge, 4th year project built entirely in Python</div>
+    </div>
+    <p class="w3-wide">Agile Methodologies</p>
+    <div class="w3-light-grey">
+      <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:100%">Familiar with Agile and Scrum practices.  </div>
+    </div>
+    <p class="w3-wide">Management </p>
+    <div class="w3-light-grey">
+      <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:100%">15 years experience in a management role.  </div><br>
+    </div>
+    <div class="w3-row w3-center w3-dark-grey w3-padding-16 w3-section">
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">Avid</span><br>
+        Gamer.
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">20+</span><br>
+        Projects on github.
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">1.1</span><br>
+        Grade Average.
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">Year 1 to 4</span><br>
+        Class Rep.
+      </div>
+    </div>
+
+    <button class="w3-button w3-light-grey w3-padding-large w3-margin-top">
+      <a href="CV2020.docx" download="CV2020.docx"><i class="fa fa-download"></i> Download Resume</a>
+    </button>
+  
+    
+  <!-- End About Section -->
+  </div>
+
+  <!-- Contact Section -->
+  <div class="w3-padding-32 w3-content w3-text-grey" id="contact" style="margin-bottom:64px">
+    <h2>Contact Me</h2>
+    <hr class="w3-opacity">
+
+    <div class="w3-section">
+      <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Offaly, Irl</p>
+      <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: +353 834099977</p>
+      <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: ray_fitzpatrick@hotmail.com</p>
+    </div>
+    
+    <!-- Image of location/map -->
+    <img src="images/codeLine.png" class="w3-image" style="width:100%; height: 60px; margin:32px 0">
+    
+  <!-- End Contact Section -->
+
+  <!-- Footer -->
+  <a href="https://www.linkedin.com/in/ray-fitzpatrick-351a801a2/" target="_blank">
+  
+  <footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-opacity w3-xlarge" style="margin:-24px">
+    <i class="fa fa-linkedin w3-hover-opacity"></i> 
+   </a>
+  <!-- End footer  -->
+  </footer> 
+  
+<!-- END PAGE CONTENT -->
+</div>
+
+<script>
+// Open and close sidebar
+function openNav() {
+  document.getElementById("mySidebar").style.width = "70%";
+  document.getElementById("mySidebar").style.display = "block";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+<script src="typed.js"></script>
+<script src="js.js"></script>
+</body>
+</html>
