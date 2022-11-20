@@ -351,290 +351,290 @@ const outputData = (data) => {
     // This section uses if statements to check the icon value returned from the api and then sets the icon picture based on this value.
     // The Icon is then inserted into the HTML that has the Class of mainPic.
 
-    if (data.list[0].weather[0].icon == "01d") { // if the value returned equals "01d" then set the Class containing Main pic in HTML to " images/sun2.svg"
-        $(".mainPic").src = "images/sun2.svg"
+    if (data.list[0].weather[0].icon == "01d") { // if the value returned equals "01d" then set the Class containing Main pic in HTML to " images3/sun2.svg"
+        $(".mainPic").src = "images3/sun2.svg"
     }
     else if (data.list[0].weather[0].icon == "01n") {
-        $(".mainPic").src = "images/moon2.svg"
+        $(".mainPic").src = "images3/moon2.svg"
     }
     else if (data.list[0].weather[0].icon == "02d") {
-        $(".mainPic").src = "images/cloudDay2.svg"
+        $(".mainPic").src = "images3/cloudDay2.svg"
     }
     else if (data.list[0].weather[0].icon == "02n") {
-        $(".mainPic").src = "images/cloudNight2.svg"
+        $(".mainPic").src = "images3/cloudNight2.svg"
     }
     else if (data.list[0].weather[0].icon == "03d") {
-        $(".mainPic").src = "images/cloudDay2.svg"
+        $(".mainPic").src = "images3/cloudDay2.svg"
     }
     else if (data.list[0].weather[0].icon == "03n") {
-        $(".mainPic").src = "images/cloudNight2.svg"
+        $(".mainPic").src = "images3/cloudNight2.svg"
     }
     else if (data.list[0].weather[0].icon == "04d") {
-        $(".mainPic").src = "images/cloudDay2.svg"
+        $(".mainPic").src = "images3/cloudDay2.svg"
     }
     else if (data.list[0].weather[0].icon == "04n") {
-        $(".mainPic").src = "images/cloudNight2.svg"
+        $(".mainPic").src = "images3/cloudNight2.svg"
     }
     else if (data.list[0].weather[0].icon == "09d") {
-        $(".mainPic").src = "images/drizzle.svg"
+        $(".mainPic").src = "images3/drizzle.svg"
     }
     else if (data.list[0].weather[0].icon == "09n") {
-        $(".mainPic").src = "images/drizzleNight2.svg"
+        $(".mainPic").src = "images3/drizzleNight2.svg"
     }
     else if (data.list[0].weather[0].icon == "10d") {
-        $(".mainPic").src = "images/rainDay2.svg"
+        $(".mainPic").src = "images3/rainDay2.svg"
     }
     else if (data.list[0].weather[0].icon == "10n") {
-        $(".mainPic").src = "images/rainNight2.svg"
+        $(".mainPic").src = "images3/rainNight2.svg"
     }
     else if (data.list[0].weather[0].icon == "11d") {
-        $(".mainPic").src = "images/thunder2.svg"
+        $(".mainPic").src = "images3/thunder2.svg"
     }
     else if (data.list[0].weather[0].icon == "11n") {
-        $(".mainPic").src = "images/thunder2.svg"
+        $(".mainPic").src = "images3/thunder2.svg"
     }
     else if (data.list[0].weather[0].icon == "13d") {
-        $(".mainPic").src = "images/snow2.svg"
+        $(".mainPic").src = "images3/snow2.svg"
     }
     else if (data.list[0].weather[0].icon == "13n") {
-        $(".mainPic").src = "images/snowNight2.svg"
+        $(".mainPic").src = "images3/snowNight2.svg"
     }
     else if (data.list[0].weather[0].icon == "11d") {
-        $(".mainPic").src = "images/mist2.svg"
+        $(".mainPic").src = "images3/mist2.svg"
     }
     else if (data.list[0].weather[0].icon == "11n") {
-        $(".mainPic").src = "images/mist2.png"
+        $(".mainPic").src = "images3/mist2.png"
     }
 
     // DAY TWO SMALL PICS
     // the following 4 sections use the same if statements as above to set the icon pictures for the 4 day forcast again using the api icon values.
     if (smallPic2 == "01d") {
-        $(".smallPic2").src = "images/sun2.svg"
+        $(".smallPic2").src = "images3/sun2.svg"
     }
     else if (smallPic2 == "01n") {
-        $(".smallPic2").src = "images/moon2.svg"
+        $(".smallPic2").src = "images3/moon2.svg"
     }
     else if (smallPic2 == "02d") {
-        $(".smallPic2").src = "images/cloudDay2.svg"
+        $(".smallPic2").src = "images3/cloudDay2.svg"
     }
     else if (smallPic2 == "02n") {
-        $(".smallPic2").src = "images/cloudNight2.svg"
+        $(".smallPic2").src = "images3/cloudNight2.svg"
     }
     else if (smallPic2 == "03d") {
-        $(".smallPic2").src = "images/cloudDay2.svg"
+        $(".smallPic2").src = "images3/cloudDay2.svg"
     }
     else if (smallPic2 == "03n") {
-        $(".smallPic2").src = "images/cloudNight2.svg"
+        $(".smallPic2").src = "images3/cloudNight2.svg"
     }
     else if (smallPic2 == "04d") {
-        $(".smallPic2").src = "images/cloudDay2.svg"
+        $(".smallPic2").src = "images3/cloudDay2.svg"
     }
     else if (smallPic2 == "04n") {
-        $(".smallPic2").src = "images/cloudNight2.svg"
+        $(".smallPic2").src = "images3/cloudNight2.svg"
     }
     else if (smallPic2 == "09d") {
-        $(".smallPic2").src = "images/drizzle.svg"
+        $(".smallPic2").src = "images3/drizzle.svg"
     }
     else if (smallPic2 == "09n") {
-        $(".smallPic2").src = "images/drizzleNight2.svg"
+        $(".smallPic2").src = "images3/drizzleNight2.svg"
     }
     else if (smallPic2 == "10d") {
-        $(".smallPic2").src = "images/rainDay2.svg"
+        $(".smallPic2").src = "images3/rainDay2.svg"
     }
     else if (smallPic2 == "10n") {
-        $(".smallPic2").src = "images/rainNight2.svg"
+        $(".smallPic2").src = "images3/rainNight2.svg"
     }
     else if (smallPic2 == "11d") {
-        $(".smallPic2").src = "images/thunder2.svg"
+        $(".smallPic2").src = "images3/thunder2.svg"
     }
     else if (smallPic2 == "11n") {
-        $(".smallPic2").src = "images/thunder2.svg"
+        $(".smallPic2").src = "images3/thunder2.svg"
     }
     else if (smallPic2 == "13d") {
-        $(".smallPic2").src = "images/snow2.svg"
+        $(".smallPic2").src = "images3/snow2.svg"
     }
     else if (smallPic2 == "13n") {
-        $(".smallPic2").src = "images/snowNight2.svg"
+        $(".smallPic2").src = "images3/snowNight2.svg"
     }
     else if (smallPic2 == "11d") {
-        $(".smallPic2").src = "images/mist2.svg"
+        $(".smallPic2").src = "images3/mist2.svg"
     }
     else if (smallPic2 == "11n") {
-        $(".smallPic2").src = "images/mist2.svg"
+        $(".smallPic2").src = "images3/mist2.svg"
     }
     else {
-        $(".smallPic2").src = "images/mist2.svg"
+        $(".smallPic2").src = "images3/mist2.svg"
     }
 
     // DAY THREE SMALL PIC
 
     if (smallPic3 == "01d") {
-        $(".smallPic3").src = "images/sun2.svg"
+        $(".smallPic3").src = "images3/sun2.svg"
     }
     else if (smallPic3 == "01n") {
-        $(".smallPic3").src = "images/moon2.svg"
+        $(".smallPic3").src = "images3/moon2.svg"
     }
     else if (smallPic3 == "02d") {
-        $(".smallPic3").src = "images/cloudDay2.svg"
+        $(".smallPic3").src = "images3/cloudDay2.svg"
     }
     else if (smallPic3 == "02n") {
-        $(".smallPic3").src = "images/cloudNight2.svg"
+        $(".smallPic3").src = "images3/cloudNight2.svg"
     }
     else if (smallPic3 == "03d") {
-        $(".smallPic3").src = "images/cloudDay2.svg"
+        $(".smallPic3").src = "images3/cloudDay2.svg"
     }
     else if (smallPic3 == "03n") {
-        $(".smallPic3").src = "images/cloudNight2.svg"
+        $(".smallPic3").src = "images3/cloudNight2.svg"
     }
     else if (smallPic3 == "04d") {
-        $(".smallPic3").src = "images/cloudDay2.svg"
+        $(".smallPic3").src = "images3/cloudDay2.svg"
     }
     else if (smallPic3 == "04n") {
-        $(".smallPic3").src = "images/cloudNight2.svg"
+        $(".smallPic3").src = "images3/cloudNight2.svg"
     }
     else if (smallPic3 == "09d") {
-        $(".smallPic3").src = "images/drizzle.svg"
+        $(".smallPic3").src = "images3/drizzle.svg"
     }
     else if (smallPic3 == "09n") {
-        $(".smallPic3").src = "images/drizzleNight2.svg"
+        $(".smallPic3").src = "images3/drizzleNight2.svg"
     }
     else if (smallPic3 == "10d") {
-        $(".smallPic3").src = "images/rainDay2.svg"
+        $(".smallPic3").src = "images3/rainDay2.svg"
     }
     else if (smallPic3 == "10n") {
-        $(".smallPic3").src = "images/rainNight2.svg"
+        $(".smallPic3").src = "images3/rainNight2.svg"
     }
     else if (smallPic3 == "11d") {
-        $(".smallPic3").src = "images/thunder2.svg"
+        $(".smallPic3").src = "images3/thunder2.svg"
     }
     else if (smallPic3 == "11n") {
-        $(".smallPic3").src = "images/thunder2.svg"
+        $(".smallPic3").src = "images3/thunder2.svg"
     }
     else if (smallPic3 == "13d") {
-        $(".smallPic3").src = "images/snow2.svg"
+        $(".smallPic3").src = "images3/snow2.svg"
     }
     else if (smallPic3 == "13n") {
-        $(".smallPic3").src = "images/snowNight2.svg"
+        $(".smallPic3").src = "images3/snowNight2.svg"
     }
     else if (smallPic3 == "11d") {
-        $(".smallPic3").src = "images/mist2.svg"
+        $(".smallPic3").src = "images3/mist2.svg"
     }
     else if (smallPic3 == "11n") {
-        $(".smallPic3").src = "images/mist2.svg"
+        $(".smallPic3").src = "images3/mist2.svg"
     }
 
     // DAY FOUR SMALL PIC
 
     if (smallPic4 == "01d") {
-        $(".smallPic4").src = "images/sun2.svg"
+        $(".smallPic4").src = "images3/sun2.svg"
     }
     else if (smallPic4 == "01n") {
-        $(".smallPic4").src = "images/moon2.svg"
+        $(".smallPic4").src = "images3/moon2.svg"
     }
     else if (smallPic4 == "02d") {
-        $(".smallPic4").src = "images/cloudDay2.svg"
+        $(".smallPic4").src = "images3/cloudDay2.svg"
     }
     else if (smallPic4 == "02n") {
-        $(".smallPic4").src = "images/cloudNight2.svg"
+        $(".smallPic4").src = "images3/cloudNight2.svg"
     }
     else if (smallPic4 == "03d") {
-        $(".smallPic4").src = "images/cloudDay2.svg"
+        $(".smallPic4").src = "images3/cloudDay2.svg"
     }
     else if (smallPic4 == "03n") {
-        $(".smallPic4").src = "images/cloudNight2.svg"
+        $(".smallPic4").src = "images3/cloudNight2.svg"
     }
     else if (smallPic4 == "04d") {
-        $(".smallPic4").src = "images/cloudDay2.svg"
+        $(".smallPic4").src = "images3/cloudDay2.svg"
     }
     else if (smallPic4 == "04n") {
-        $(".smallPic4").src = "images/cloudNight2.svg"
+        $(".smallPic4").src = "images3/cloudNight2.svg"
     }
     else if (smallPic4 == "09d") {
-        $(".smallPic4").src = "images/drizzle.svg"
+        $(".smallPic4").src = "images3/drizzle.svg"
     }
     else if (smallPic4 == "09n") {
-        $(".smallPic4").src = "images/drizzleNight2.svg"
+        $(".smallPic4").src = "images3/drizzleNight2.svg"
     }
     else if (smallPic4 == "10d") {
-        $(".smallPic4").src = "images/rainDay2.svg"
+        $(".smallPic4").src = "images3/rainDay2.svg"
     }
     else if (smallPic4 == "10n") {
-        $(".smallPic4").src = "images/rainNight2.svg"
+        $(".smallPic4").src = "images3/rainNight2.svg"
     }
     else if (smallPic4 == "11d") {
-        $(".smallPic4").src = "images/thunder2.svg"
+        $(".smallPic4").src = "images3/thunder2.svg"
     }
     else if (smallPic4 == "11n") {
-        $(".smallPic4").src = "images/thunder2.svg"
+        $(".smallPic4").src = "images3/thunder2.svg"
     }
     else if (smallPic4 == "13d") {
-        $(".smallPic4").src = "images/snow2.svg"
+        $(".smallPic4").src = "images3/snow2.svg"
     }
     else if (smallPic4 == "13n") {
-        $(".smallPic4").src = "images/snowNight2.svg"
+        $(".smallPic4").src = "images3/snowNight2.svg"
     }
     else if (smallPic4 == "11d") {
-        $(".smallPic4").src = "images/mist2.svg"
+        $(".smallPic4").src = "images3/mist2.svg"
     }
     else if (smallPic4 == "11n") {
-        $(".smallPic4").src = "images/mist2.svg"
+        $(".smallPic4").src = "images3/mist2.svg"
     }
 
 
     //  DAY FIVE SMALL PIC
     if (smallPic5 == "01d") {
-        $(".smallPic5").src = "images/sun2.svg"
+        $(".smallPic5").src = "images3/sun2.svg"
     }
     else if (smallPic5 == "01n") {
-        $(".smallPic5").src = "images/moon2.svg"
+        $(".smallPic5").src = "images3/moon2.svg"
     }
     else if (smallPic5 == "02d") {
-        $(".smallPic5").src = "images/cloudDay2.svg"
+        $(".smallPic5").src = "images3/cloudDay2.svg"
     }
     else if (smallPic5 == "02n") {
-        $(".smallPic5").src = "images/cloudNight2.svg"
+        $(".smallPic5").src = "images3/cloudNight2.svg"
     }
     else if (smallPic5 == "03d") {
-        $(".smallPic5").src = "images/cloudDay2.svg"
+        $(".smallPic5").src = "images3/cloudDay2.svg"
     }
     else if (smallPic5 == "03n") {
-        $(".smallPic5").src = "images/cloudNight2.svg"
+        $(".smallPic5").src = "images3/cloudNight2.svg"
     }
     else if (smallPic5 == "04d") {
-        $(".smallPic5").src = "images/cloudDay2.svg"
+        $(".smallPic5").src = "images3/cloudDay2.svg"
     }
     else if (smallPic5 == "04n") {
-        $(".smallPic5").src = "images/cloudNight2.svg"
+        $(".smallPic5").src = "images3/cloudNight2.svg"
     }
     else if (smallPic5 == "09d") {
-        $(".smallPic5").src = "images/drizzle.svg"
+        $(".smallPic5").src = "images3/drizzle.svg"
     }
     else if (smallPic5 == "09n") {
-        $(".smallPic5").src = "images/drizzleNight2.svg"
+        $(".smallPic5").src = "images3/drizzleNight2.svg"
     }
     else if (smallPic5 == "10d") {
-        $(".smallPic5").src = "images/rainDay2.svg"
+        $(".smallPic5").src = "images3/rainDay2.svg"
     }
     else if (smallPic5 == "10n") {
-        $(".smallPic5").src = "images/rainNight2.svg"
+        $(".smallPic5").src = "images3/rainNight2.svg"
     }
     else if (smallPic5 == "11d") {
-        $(".smallPic5").src = "images/thunder2.svg"
+        $(".smallPic5").src = "images3/thunder2.svg"
     }
     else if (smallPic5 == "11n") {
-        $(".smallPic5").src = "images/thunder2.svg"
+        $(".smallPic5").src = "images3/thunder2.svg"
     }
     else if (smallPic5 == "13d") {
-        $(".smallPic5").src = "images/snow2.svg"
+        $(".smallPic5").src = "images3/snow2.svg"
     }
     else if (smallPic5 == "13n") {
-        $(".smallPic5").src = "images/snowNight2.svg"
+        $(".smallPic5").src = "images3/snowNight2.svg"
     }
     else if (smallPic5 == "11d") {
-        $(".smallPic5").src = "images/mist2.svg"
+        $(".smallPic5").src = "images3/mist2.svg"
     }
     else if (smallPic5 == "11n") {
-        $(".smallPic5").src = "images/mist2.svg"
+        $(".smallPic5").src = "images3/mist2.svg"
     }
 }
 //   ***********  end of Icons ********************
